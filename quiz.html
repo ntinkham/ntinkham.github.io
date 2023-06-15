@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset= "UTF-8">
+	<header>
+		<title>CSCE 102 Project Part 4</title>
+			<!--
+			Nicole Tinkham
+			CSCE 102
+			Section 001
+			June 12, 2023
+			-->
+		<link rel="stylesheet" href="style.css">
+	</header>
+    <body>
+        <div id="navigation">
+            <h1>Nicole Tinkham</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="columns">
+        <section class="column" id="quiz">
+            <h3>Web  Development Quiz</h3>
+            <p>
+                <label for="one"> Which element displays inline? </label>
+                <select id="one">
+                    <option value=""> </option>
+                    <option value="div"> &lt;div&gt; </option>
+                    <option value="image"> &lt;image&gt; </option> <!-- This is the correct answer--> 
+                    <option value="header"> &lt;header&gt; </option>
+                    <option value="table"> &lt;table&gt; </option>
+                </select>
+            </p>
+            <p>
+                <label for="two"> Which element displays in a new line? </label>
+                <select id="two">
+                    <option value=""> </option>
+                    <option value="strong">&lt;strong&gt;</option>
+                    <option value="anchor">&lt;a&gt;</option>
+                    <option value="para">&lt;p&gt;</option> <!-- This is the correct answer--> 
+                    <option value="button">&lt;button&gt;</option>
+                </select>
+            </p>
+            <p>
+                <label for="three"> What does CSS stand for? </label>
+                <select id="three">
+                    <option value=""> </option>
+                    <option value="cascading">Cascading Style Sheets</option><!-- This is the correct answer--> 
+                    <option value="computer">Computer Style Sheets</option>
+                    <option value="creative">Creative Style Sheets</option>
+                    <option value="colorful">Colorful Style Sheets</option>
+                </select>
+            </p>
+            <p>
+                <label for="four"> Which CSS property configures the alignment of the text? </label>
+                <select id="four">
+                    <option value=""> </option>
+                    <option value="decoration">text-decoration</option>
+                    <option value="size">font-size</option>
+                    <option value="weight">font-weight</option>
+                    <option value="align">text-align</option><!-- This is the correct answer--> 
+                </select>
+            </p>
+            <p>
+                <button id="submit" onclick="displayResults()">Submit</button>
+            </p>
+        </section>
+        <section>
+            <div id="results" class="hidden column">
+                <h3>Quiz Results</h3>
+            </div>
+        </section>
+        </div>
+        <div>
+            <footer>
+                <p>&copy;nicoletinkham</p>
+            </footer>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>

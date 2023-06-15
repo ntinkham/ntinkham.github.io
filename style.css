@@ -1,0 +1,129 @@
+/* TEMPLATE*/
+#content {
+	width:100%;
+	margin: auto;
+}
+
+html {
+	background-color:mistyrose;
+	font-family:arial;
+}
+
+header {
+	padding:5px;
+}
+
+div{
+	background-color:lightpink;
+}
+
+h1{
+	background-color:lightpink;
+	color: white;
+	padding:5px;
+	text-align:center;
+}
+
+h2{
+	color: white;
+	padding:5px;
+	text-align: center;
+}
+
+footer {
+	padding:5px;
+	color: white;
+	text-align:center;
+}
+
+/*NAVIGATION*/
+#main-nav{
+	padding:5px;
+	background-color:lightpink;
+}
+
+#main-nav ul {
+	padding-left:0px;
+}
+
+#main-nav li {
+	list-style-type:none;
+	margin: 10px;
+}
+
+#main-nav a {
+	text-decoration:none;
+	padding:5px;
+	background:lavenderblush;
+	display:block;
+    position:relative;
+    z-index: 1;
+}
+
+#main-nav a:hover {
+  background: hotpink;
+}
+
+/*HOME*/
+.center {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.home-page {
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+}
+
+p {
+	margin: auto;
+	padding: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+/*CONTACT*/
+h3{
+	margin: auto;
+	padding: 5px;
+}
+
+#form {
+	margin: auto;
+	padding: 5px;
+}
+
+.info-box {
+	width: 50%;
+	line-height: 10px;
+	margin: auto;
+}
+
+.message {
+	width: 50%;
+	line-height: 100px;
+}
+
+/*QUIZ*/
+.columns {
+	display: flex;
+}
+
+/*LARGER RESOLUTION*/
+@media (min-width:720px) {
+#main-nav{
+	text-align:center;
+}
+
+#main-nav li {
+	display: inline;
+}
+
+#main-nav a {
+	display:inline;
+}
+}
