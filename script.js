@@ -74,3 +74,17 @@ function displayResults(){
     
     resultsDiv.innerHTML += "Score: " + score + "/4;"
 }
+
+function changeSlide() {
+    let slideshow= document.getElementById("slideshow");
+    let change = ["images/clyde.jpg", "images/friends.jpg", "images/grace.jpg", "images/mexico.jpg"];
+    
+    slideshow.src= change[num];
+    num++;
+    
+    if(num == change.length) {
+        num=0;
+    }
+}
+
+setInterval(changeSlide, 1000);
